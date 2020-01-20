@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>CodeBox | Login</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 		<script  type = " text/javascript "  src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js " > </script>
+  		<script  type = "text/javascript"  src = " https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js" > </script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a class="logo">CodeBox</a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="../index.php">Home</a></li>
+					<li><a href="login.html">Login</a></li>
+					<li><a href="../registro/registro.php">Registro</a></li>
+				</ul>
+			</nav>
+
+		<!-- Heading -->
+			<div id="heading" >
+				<h1>Login</h1>
+			</div>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="inner">
+					<div class="content" style="text-align: center;">
+						<form id= "loginForm" action="validarCode.php" method="POST">
+               			<table>
+		                  <tr>
+		                    <td>Email: </td>
+		                    <td><input type="email" name="txtEmail" class="textbox"></td>
+		                  </tr>
+
+		                  <tr>
+		                    <td>Contraseña: </td>
+		                    <td><input type="password" name="txtPassword" class="textbox"></td>
+		                  </tr>
+
+		                  <tr>
+		                    <td>&nbsp</td>
+		                    <td><input type="submit" value="Entrar" class="boton" ></td>
+		                  </tr>
+		              	</table>
+		                </form>
+		        </div>
+		        </div>
+			</section>
+
+		<!-- Footer
+			<footer id="footer">
+				<div class="inner">
+					<div class="copyright">
+						&copy; CodeBox
+					</div>
+				</div>
+			</footer>
+-->
+		<!-- Scripts -->
+
+		<script src="../assets/js/jquery.min.js"></script>
+		<script src="../assets/js/browser.min.js"></script>
+		<script src="../assets/js/breakpoints.min.js"></script>
+		<script src="../assets/js/util.js"></script>
+		<script src="../assets/js/main.js"></script>
+<!--
+		<script  src="overhang.min.js"></script>
+		<script  src="app.js"></script>";-->
+
+	<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<div class="copyright">
+							&copy; CodeBox
+						</div>
+					</div>
+				</footer>
+
+	</body>
+</html>
